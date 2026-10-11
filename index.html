@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NextGen Web Studio creates modern, professional websites for cafes, restaurants, gyms and small businesses.">
+<meta name="theme-color" content="#050816">
+<title>NextGen Web Studio | Websites That Grow Business</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #050816;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #080d20;
+  border-bottom: 1px solid #17264b;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 14px;
+}
+
+.hero {
+  padding: 100px 8%;
+  text-align: center;
+  background: radial-gradient(circle at top, #132957, #050816 65%);
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #38bdf8;
+  color: #7dd3fc;
+  border-radius: 30px;
+  padding: 7px 15px;
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-size: clamp(38px, 7vw, 65px);
+  line-height: 1.12;
+  margin-bottom: 22px;
+}
+
+.highlight {
+  color: #38bdf8;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  color: #bdc8dc;
+  font-size: 17px;
+}
+
+.button {
+  display: inline-block;
+  background: #168cff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.button:hover {
+  background: #0870d1;
+}
+
+.button-outline {
+  background: transparent;
+  border: 1px solid #38bdf8;
+}
+
+section {
+  padding: 75px 8%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  text-align: center;
+  color: #a9b7ce;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.card {
+  background: #0c1429;
+  padding: 27px;
+  border: 1px solid #1c3159;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+.card h3 {
+  color: #7dd3fc;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #b8c4d9;
+  font-size: 15px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #38bdf8;
+  margin: 15px 0;
+}
+
+.card ul {
+  padding-left: 18px;
+  color: #c5d0e2;
+  margin: 15px 0;
+}
+
+.card li {
+  margin: 7px 0;
+}
+
+.contact {
+  text-align: center;
+  background: #0a1124;
+}
+
+.contact p {
+  color: #bdc8dc;
+  margin: 15px auto 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid #17264b;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0 7px;
+  }
+
+  .hero {
+    padding: 75px 6%;
+  }
+
+  section {
+    padding: 55px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">NEXTGEN.</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="badge">CREATIVE DIGITAL STUDIO</span>
+  <h1>We Build Websites<br>That <span class="highlight">Grow Business.</span></h1>
+  <p>
+    Modern, mobile-friendly websites for cafes, restaurants, gyms
+    and small businesses. Give your business a powerful online presence.
+  </p>
+  <a href="#contact" class="button">Get a Free Demo</a>
+  <a href="#portfolio" class="button button-outline">Explore Our Work</a>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+  <p class="section-desc">Everything your business needs to get online.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🌐 Business Websites</h3>
+      <p>Professional websites that explain your services and help customers find your business.</p>
+    </div>
+
+    <div class="card">
+      <h3>☕ Cafe & Restaurant</h3>
+      <p>Showcase your menu, photos, location, opening hours and contact details.</p>
+    </div>
+
+    <div class="card">
+      <h3>💪 Gym Websites</h3>
+      <p>Present membership plans, facilities, trainers and enquiry information.</p>
+    </div>
+
+    <div class="card">
+      <h3>📱 Mobile-Friendly Design</h3>
+      <p>Responsive layouts designed to work on mobile phones, tablets and computers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2 class="section-title">Demo Projects</h2>
+  <p class="section-desc">Explore sample concepts created to demonstrate our design ideas.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>☕ Urban Cafe</h3>
+      <p>A sample cafe website concept with menu highlights and a modern visual style.</p>
+      <br>
+      <a class="button button-outline" href="#contact">Request Demo</a>
+    </div>
+
+    <div class="card">
+      <h3>🍽️ Royal Restaurant</h3>
+      <p>A sample restaurant concept designed to showcase dishes and customer information.</p>
+      <br>
+      <a class="button button-outline" href="#contact">Request Demo</a>
+    </div>
+
+    <div class="card">
+      <h3>🏋️ Power Fitness</h3>
+      <p>A sample fitness website concept for showcasing gym facilities and membership plans.</p>
+      <br>
+      <a class="button button-outline" href="#contact">Request Demo</a>
+    </div>
+  </div>
+  <p class="section-desc" style="margin-top:25px;">
+    These are demo concepts, not actual client projects.
+  </p>
+</section>
+
+<section id="pricing">
+  <h2 class="section-title">Simple Pricing</h2>
+  <p class="section-desc">Suggested starting prices. Final cost depends on your requirements.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Starter</h3>
+      <div class="price">₹1,499</div>
+      <p>For individuals and small businesses.</p>
+      <ul>
+        <li>Single-page website</li>
+        <li>Mobile-friendly design</li>
+        <li>Business contact details</li>
+      </ul>
+      <a class="button" href="#contact">Enquire Now</a>
+    </div>
+
+    <div class="card">
+      <h3>Professional</h3>
+      <div class="price">₹2,999</div>
+      <p>For growing local businesses.</p>
+      <ul>
+        <li>Up to 5 sections or pages</li>
+        <li>Services and gallery</li>
+        <li>Contact and enquiry buttons</li>
+      </ul>
+      <a class="button" href="#contact">Enquire Now</a>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <div class="price">₹4,999+</div>
+      <p>For businesses needing a custom design.</p>
+      <ul>
+        <li>Custom design</li>
+        <li>Additional business features</li>
+        <li>Basic SEO setup</li>
+      </ul>
+      <a class="button" href="#contact">Enquire Now</a>
+    </div>
+  </div>
+
+  <p class="section-desc" style="margin-top:25px;">
+    Domain, paid hosting and third-party services may cost extra.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Let's Build Something Great</h2>
+  <p>
+    Need a website for your cafe, restaurant, gym or business?
+    Contact us to discuss a free initial demo.
+  </p>
+
+  <!-- Replace YOUR_EMAIL with your own email address -->
+  <a class="button"
+     href="mailto:YOUR_EMAIL?subject=Website%20Enquiry">
+     Email Us
+  </a>
+
+  <!-- Replace YOURNUMBER with your WhatsApp number including country code.
+       Example format: 919876543210 -->
+  <a class="button button-outline"
+     href="https://wa.me/YOURNUMBER">
+     WhatsApp Us
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 NextGen Web Studio. All rights reserved.</p>
+  <p>Creative websites for ambitious businesses.</p>
+</footer>
+
+</body>
+</html>
